@@ -1,0 +1,32 @@
+.LW 20
+.LS 2
+.LM +5
+
+         this is a sample
+      input for
+   the     assignmen
+
+.FT off
+
+asd
+
+s
+sdf's sdfsdf 
+sdfs dfd fd fdf 
+
+.FT on
+
+fdf    df 
+   df   
+df  fdf fd fd 
+   df    fd f  f    fds s s d  fd f d fd  fffffffffffffffff     fff   ffff   f
+
+
+
+
+
+
+
+
+
+ n 

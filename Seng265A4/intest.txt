@@ -1,0 +1,6 @@
+this is a test
+file for preliminary testing
+of formatter.c
+
+
+lets see how it does. . . .
