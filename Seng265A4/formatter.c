@@ -131,47 +131,5 @@ char **format_lines(char **lines, int num_lines) {
         }
       }
 
-      /*
-      if(formatting){
-        *line = lines[i];
-        line++;
-        result = realloc(result, sizeof(char*) * (i+1));
-        *line = malloc(sizeof(char *));
-      }else{
-        *line = format_line(lines[i]);
-        const char delim[2] = " ";
-        char* currWord = strtok(*line, delim);
-        while(currWord != NULL){
-          if(strncmp(currWord, "\n", 1) == 0){
-            currWord = strtok(NULL, delim);
-            continue;
-          }
-          if(width < strlen(currWord)+currLineSize){
-            currLineSize = 0;
-            result = realloc(result, sizeof(char*) * (i+1));
-            line++;
-            *line = malloc(sizeof(char *));
-            strncat(*line, "\n", 1);
-            while(currLineSize < buffer){
-              strncat(*line, " ", 1);
-              currLineSize++;
-            }
-            strncat(*line, currWord, 256);
-            strncat(*line, " ", 1);
-            currWord = strtok(NULL, delim);
-          }else{
-            strncat(*line, currWord, 256);
-            strncat(*line, " ", 1);
-            currWord = strtok(NULL, delim);
-          }
-        }
-      }*/
-    }
-  }
-  //nullify last few lines of result (commandCount)
-  //for(int i = 0; i < (num_lines - num_result_lines); i++){
-  //  result[num_lines-i] = NULL;
-//  }
-
   return result;
 }
